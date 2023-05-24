@@ -15,11 +15,11 @@ export class Character {
     this.sentence = "";
   }
 
-  toDie() {
+  isAlive() {
     this.alive = false;
   }
 
-  letWarCryOut() {
+  sentenceMessage() {
     return this.sentence;
   }
 }
