@@ -2,7 +2,7 @@ import { Character } from "./character.ts";
 
 export class Fighter extends Character {
   weapon;
-  skills;
+  skill;
 
   constructor(
     name: string,
@@ -13,7 +13,7 @@ export class Fighter extends Character {
   ) {
     super(name, house, age);
     this.weapon = weapon;
-    this.skills = skill;
+    this.skill = skill;
     this.sentence = "Hit first, ask later";
   }
 }
